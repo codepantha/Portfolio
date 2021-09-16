@@ -8,7 +8,7 @@ header {
   display: flex;
   height: 48px;
   align-items: baseline;
-  padding: 8px 64px;
+  padding: 8px 24px;
   color: #28352F
 }
 
@@ -16,6 +16,7 @@ h1.logo{
   flex: 1;
   font-family: Inter;
   font-weight: 600;
+  font-size: 20px;
   line-height: 28px;
 }
 
@@ -31,4 +32,46 @@ span.menu {
     border-bottom: none;
     border-left: none;
     border-right: none;
+}
+
+section.headline {
+  height: 100px;
+  background: url("../img/header.png") center 0% no-repeat;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+}
+
+.intro {
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 52px;
+  letter-spacing: 1px;
+  margin-top: 100px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  padding: 0 10%;
+  align-items: center;
+}
+
+.intro p {
+  color: #172B4D;
+  padding: 24px;
+  margin-bottom: 0;
+}
+
+.intro span.title {
+  color: #36b37e;
+  display: block;
+  padding-top: 24px;
+}
+
+.intro .more-info {
+  font-size: 20px;
+  line-height: 28px;
+}
+
+.intro .socials {
+  margin-top: 24px;
 }
