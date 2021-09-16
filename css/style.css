@@ -9,12 +9,12 @@ header {
   height: 48px;
   align-items: baseline;
   padding: 8px 24px;
-  color: #28352F
+  color: #28352f;
 }
 
-h1.logo{
+h1.logo {
   flex: 1;
-  font-family: Inter;
+  font-family: 'Inter', sans-serif;
   font-weight: 600;
   font-size: 20px;
   line-height: 28px;
@@ -26,12 +26,12 @@ span.menu {
 }
 
 .menu .bar {
-    border: 2px solid black;
-    padding: 3px;
-    width: 20px;
-    border-bottom: none;
-    border-left: none;
-    border-right: none;
+  border: 2px solid black;
+  padding: 3px;
+  width: 20px;
+  border-bottom: none;
+  border-left: none;
+  border-right: none;
 }
 
 section.headline {
@@ -56,7 +56,7 @@ section.headline {
 }
 
 .intro p {
-  color: #172B4D;
+  color: #172b4d;
   padding: 24px;
   margin-bottom: 0;
 }
