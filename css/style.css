@@ -1,0 +1,89 @@
+body {
+  font-family: 'Inter', sans-serif;
+  background: #fff;
+}
+
+header {
+  display: flex;
+  height: 48px;
+  align-items: baseline;
+  padding: 8px 24px;
+  color: #28352f;
+}
+
+h1.logo {
+  flex: 1;
+  font-family: 'Inter', sans-serif;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 28px;
+}
+
+button.menu {
+  display: flex;
+  flex-direction: column;
+  border: none;
+  background: transparent;
+}
+
+.menu .bar {
+  border: 2px solid #28352f;
+  padding: 3px;
+  width: 20px;
+  border-bottom: none;
+  border-left: none;
+  border-right: none;
+  color: #28352f;
+}
+
+section.headline {
+  height: 100px;
+  background: url("../img/header.png") center 0% no-repeat;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+}
+
+.intro {
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 52px;
+  letter-spacing: 1px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  padding: 0 10%;
+}
+
+.intro h1 {
+  color: #172b4d;
+  padding: 24px 0;
+  margin-bottom: 0;
+}
+
+.intro span.title {
+  color: #36b37e;
+  display: block;
+  padding-top: 24px;
+}
+
+.intro .more-info {
+  font-size: 20px;
+  line-height: 28px;
+}
+
+.intro .socials {
+  margin-top: 24px;
+  display: flex;
+  justify-content: center;
+}
+
+.socials .icon {
+  margin: 0 10px;
+  width: 14px;
+  height: 14px;
+}
+
+.socials .icon:hover {
+  cursor: pointer;
+}
