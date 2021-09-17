@@ -134,6 +134,7 @@ section h2 {
   border-radius: 8px;
   min-height: 400px;
   margin-bottom: 24px;
+  align-items: center;
 }
 
 #works .card img {
@@ -142,7 +143,7 @@ section h2 {
 
 .project-name h4 {
   font-size: 24px;
-  font-weight: 600px;
+  font-weight: 600;
   color: #3a4a42;
   letter-spacing: 1px;
   padding: 0 40px;
@@ -219,7 +220,7 @@ section h2 {
 
 .skill h2 {
   font-size: 24px;
-  font-weight: 600px;
+  font-weight: 600;
   color: #344563;
   letter-spacing: 1px;
   padding: 0 40px;
