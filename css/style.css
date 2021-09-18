@@ -1,6 +1,7 @@
 body {
   font-family: 'Inter', sans-serif;
   background: #fff;
+  overflow-x: hidden;
 }
 
 header {
@@ -37,9 +38,8 @@ button.menu {
 }
 
 section.headline {
-  height: 100px;
   background: url("../img/header.png") center 0% no-repeat;
-  min-height: 100vh;
+  min-height: 100px;
   display: flex;
   justify-content: center;
 }
@@ -70,6 +70,8 @@ section.headline {
 .intro .more-info {
   font-size: 20px;
   line-height: 28px;
+  font-weight: 400;
+  color: #172b4d;
 }
 
 .intro .socials {
@@ -86,4 +88,178 @@ section.headline {
 
 .socials .icon:hover {
   cursor: pointer;
+}
+
+.go-to-works {
+  text-align: center;
+  margin: 50px 0 0 0;
+  padding: 10px;
+}
+
+.go-to-works a:hover {
+  cursor: pointer;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: 327px;
+  padding: 10px;
+  text-align: center;
+  justify-content: center;
+}
+
+section h2 {
+  color: #172b4d;
+  font-size: 40px;
+  line-height: 52px;
+  font-weight: 700;
+  margin-top: 0;
+}
+
+#works hr {
+  border: 2px solid #36b37e;
+  width: 48px;
+  height: 4px;
+  margin-bottom: 70px;
+  border-radius: 24px;
+  background: #36b37e;
+}
+
+.border {
+  border: 1px solid #d0d9d4;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  border-radius: 8px;
+  min-height: 400px;
+  margin-bottom: 24px;
+  align-items: center;
+}
+
+#works .card img {
+  width: 100%;
+}
+
+.project-name h4 {
+  font-size: 24px;
+  font-weight: 600;
+  color: #3a4a42;
+  letter-spacing: 1px;
+  padding: 0 40px;
+  margin-top: 16px;
+  margin-bottom: 16px;
+}
+
+.tech-group {
+  display: flex;
+  justify-content: space-around;
+  margin: 0;
+  list-style: none;
+  padding-left: 0;
+}
+
+.tech {
+  background: #ebf0ee;
+  border-radius: 4px;
+  padding: 10px;
+  font-size: 12px;
+  font-weight: 600;
+  color: #3a4a42;
+  line-height: 16px;
+  margin: 0 6px;
+  flex: 1;
+}
+
+.porcelain {
+  color: #ebf0ee;
+}
+
+.btn {
+  height: 48px;
+  margin-top: 32px;
+  padding: 12px;
+  border-radius: 4px;
+  background: #36b37f;
+  border: 1px solid #36b37f;
+  color: #fff;
+  font-size: 17px;
+  line-height: 24px;
+}
+
+.btn:hover {
+  cursor: pointer;
+  background: #36b37f;
+  box-shadow: 0 8px 16px rgba(54, 179, 127, 0.24);
+}
+
+.btn:enabled {
+  background: #36b37f;
+}
+
+.btn:active {
+  background: #008552;
+}
+
+#about p {
+  margin-top: 0;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 32px;
+  color: #42526e;
+}
+
+#about button.get-resume {
+  align-self: center;
+}
+
+.skill {
+  display: flex;
+  flex-direction: column;
+  border-radius: 8px;
+  min-height: 352px;
+  margin-bottom: 24px;
+  background: #ebf0ee;
+  align-items: center;
+}
+
+.skill .skill-icon {
+  border: 1px solid #fff;
+  background: #fff;
+  padding: 10px;
+  border-radius: 50%;
+  margin-top: 40px;
+}
+
+.skill h2 {
+  font-size: 24px;
+  font-weight: 600;
+  color: #344563;
+  letter-spacing: 1px;
+  padding: 0 40px;
+  margin-top: 70px;
+  margin-bottom: 16px;
+}
+
+.skill-tech-group {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  padding: 0 10px;
+  margin: 0;
+  list-style: none;
+  padding-left: 0;
+}
+
+.skill-tech {
+  background: #fff;
+  border-radius: 4px;
+  padding: 10px;
+  font-size: 12px;
+  font-weight: 600;
+  color: #36b37e;
+  line-height: 16px;
+  margin: 0 6px 8px;
+  white-space: nowrap;
 }
