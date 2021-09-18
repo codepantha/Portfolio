@@ -1,6 +1,7 @@
 body {
   font-family: 'Inter', sans-serif;
   background: #fff;
+  overflow-x: hidden;
 }
 
 header {
@@ -154,6 +155,9 @@ section h2 {
 .tech-group {
   display: flex;
   justify-content: space-around;
+  margin: 0;
+  list-style: none;
+  padding-left: 0;
 }
 
 .tech {
@@ -177,8 +181,8 @@ section h2 {
   margin-top: 32px;
   padding: 12px;
   border-radius: 4px;
-  background: #36bb7f;
-  border: 1px solid #36bb7f;
+  background: #36b37f;
+  border: 1px solid #36b37f;
   color: #fff;
   font-size: 17px;
   line-height: 24px;
@@ -186,6 +190,16 @@ section h2 {
 
 .btn:hover {
   cursor: pointer;
+  background: #36b37f;
+  box-shadow: 0 8px 16px rgba(54, 179, 127, 0.24);
+}
+
+.btn:enabled {
+  background: #36b37f;
+}
+
+.btn:active {
+  background: #008552;
 }
 
 #about p {
@@ -233,6 +247,9 @@ section h2 {
   justify-content: space-evenly;
   flex-wrap: wrap;
   padding: 0 10px;
+  margin: 0;
+  list-style: none;
+  padding-left: 0;
 }
 
 .skill-tech {
