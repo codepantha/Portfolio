@@ -96,10 +96,6 @@ section.headline {
   padding: 10px;
 }
 
-.go-to-works a:hover {
-  cursor: pointer;
-}
-
 .grid {
   display: grid;
   grid-template-columns: 327px;
@@ -202,6 +198,16 @@ section h2 {
   background: #008552;
 }
 
+.contact-section p {
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 52px;
+  color: #172b4d;
+  text-align: center;
+  margin-bottom: 50px;
+  padding: 12px;
+}
+
 #about p {
   margin-top: 0;
   font-size: 20px;
@@ -270,16 +276,6 @@ section h2 {
   align-items: center;
 }
 
-.contact-section p {
-  font-size: 40px;
-  font-weight: 700;
-  line-height: 52px;
-  color: #172b4d;
-  text-align: center;
-  margin-bottom: 50px;
-  padding: 12px;
-}
-
 .contact-section form {
   display: flex;
   flex-direction: column;
@@ -326,11 +322,15 @@ section h2 {
   color: #42526e;
 }
 
+.go-to-works a:hover {
+  cursor: pointer;
+}
+
 .bottom-bar {
   margin-top: 300px;
   height: 4px;
   width: 100px;
   background: #0d151e;
   border: #0d151e;
-  border-radius: 25px
+  border-radius: 25px;
 }
