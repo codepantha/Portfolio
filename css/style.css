@@ -379,6 +379,14 @@ section h2 {
     display: none;
   }
 
+  .navbar li a:hover {
+    border: 3px solid #3eb380;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    padding-bottom: 3px;
+  }
+
   button.menu {
     display: none;
   }
@@ -402,6 +410,7 @@ section h2 {
   .navbar li a {
     text-decoration: none;
     color: #344563;
+    transition: .2s;
   }
 
   section.headline {
