@@ -380,14 +380,6 @@ section h2 {
   h1.logo {
     display: none;
   }
-  
-  .navbar li a:hover {
-    border: 3px solid #3eb380;
-    border-top: none;
-    border-left: none;
-    border-right: none;
-    padding-bottom: 3px;
-  }
 
   button.menu {
     display: none;
@@ -412,7 +404,15 @@ section h2 {
   .navbar li a {
     text-decoration: none;
     color: #344563;
-    transition: .2s;
+    transition: 0.2s;
+  }
+
+  .navbar li a:hover {
+    border: 3px solid #3eb380;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    padding-bottom: 3px;
   }
 
   section.headline {
@@ -427,18 +427,18 @@ section h2 {
   section h1 {
     margin-top: 100px;
   }
-  
+
   @keyframes title-fade-in {
     from {
       width: 300%;
     }
-  
+
     to {
       margin-right: auto;
       width: 100%;
     }
   }
-  
+
   .go-to-works {
     margin-bottom: 400px;
   }
@@ -582,4 +582,3 @@ section h2 {
     background-repeat: no-repeat;
   }
 }
-
