@@ -63,6 +63,8 @@ section.headline {
   color: #172b4d;
   padding: 24px 0;
   margin-bottom: 0;
+  animation-name: title-fade-in;
+  animation-duration: 3s;
 }
 
 .intro span.title {
@@ -402,6 +404,15 @@ section h2 {
   .navbar li a {
     text-decoration: none;
     color: #344563;
+    transition: 0.2s;
+  }
+
+  .navbar li a:hover {
+    border: 3px solid #3eb380;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    padding-bottom: 3px;
   }
 
   section.headline {
@@ -415,6 +426,17 @@ section h2 {
 
   section h1 {
     margin-top: 100px;
+  }
+
+  @keyframes title-fade-in {
+    from {
+      width: 300%;
+    }
+
+    to {
+      margin-right: auto;
+      width: 100%;
+    }
   }
 
   .go-to-works {
