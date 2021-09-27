@@ -27,24 +27,17 @@ There are no prerequisites
 
 ### Setup
 Just clone the repository to your local machine and you are all set.
-
-### Install
-
-### Usage
-
-### Run tests
-
-### Deployment
+`git clone https://github.com/Code-panther/Portfolio.git`
 
 
 
 ## Authors
 
-👤 **Author1**
+👤 **Author**
 
-- GitHub: [@githubhandle](https://github.com/Code-panther)
-- Twitter: [@twitterhandle](https://twitter.com/codepantherr)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/promise-eze)
+- GitHub: [@Code-panther](https://github.com/Code-panther)
+- Twitter: [@codepantherr](https://twitter.com/codepantherr)
+- LinkedIn: [promise-eze](https://linkedin.com/in/promise-eze)
 
 ## 🤝 Contributing
 
