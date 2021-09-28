@@ -90,6 +90,7 @@ section.headline {
   margin: 0 10px;
   width: 14px;
   height: 14px;
+  vertical-align: top;
 }
 
 .socials .icon:hover {
@@ -374,10 +375,6 @@ section h2 {
 
 .navbar {
   display: none;
-}
-
-.icon {
-  vertical-align: top;
 }
 
 @media screen and (min-width: 1080px) {
