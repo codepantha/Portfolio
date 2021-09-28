@@ -376,6 +376,10 @@ section h2 {
   display: none;
 }
 
+.social-icon img {
+  vertical-align: top;
+}
+
 @media screen and (min-width: 1080px) {
   h1.logo {
     display: none;
