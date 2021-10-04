@@ -65,6 +65,7 @@ section.headline {
   margin-bottom: 0;
   animation-name: title-fade-in;
   animation-duration: 3s;
+  font-size: 40px;
 }
 
 .intro span.title {
@@ -581,4 +582,43 @@ section h2 {
     background-size: 100%;
     background-repeat: no-repeat;
   }
+}
+
+.mobileMenuCover {
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  background-color: #fff;
+  height: 95vh;
+  display: block;
+  border-bottom-left-radius: 25px;
+  border-bottom-right-radius: 25px;
+}
+
+.firstContainer {
+  height: 15%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  margin-right: 24px;
+  font-size: 24px;
+  color: antiquewhite;
+}
+
+.mobileMenuItems {
+  list-style: none;
+  margin-top: 30px;
+}
+
+.mobileMenuItem-a {
+  text-decoration: none;
+  font-size: 32px;
+  font-weight: 600;
+  line-height: 44px;
+  color: #3a4a42;
+}
+
+.closeButton {
+  color: #67798e;
 }
