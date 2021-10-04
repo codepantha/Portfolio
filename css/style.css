@@ -4,6 +4,7 @@ body {
   background: #fff;
   max-width: 100%;
   overflow-x: hidden;
+  scroll-behavior: smooth;
 }
 
 header {
@@ -589,11 +590,16 @@ section h2 {
   left: 0;
   top: 0;
   width: 100%;
-  background-color: #fff;
+  background-color: lightgray;
+  height: 100vh;
+  display: none;
+}
+
+.insideContainer {
   height: 95vh;
-  display: block;
-  border-bottom-left-radius: 25px;
-  border-bottom-right-radius: 25px;
+  border-bottom-left-radius: 28px;
+  border-bottom-right-radius: 28px;
+  background-color: #fff;
 }
 
 .firstContainer {

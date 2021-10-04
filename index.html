@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
   <head>
+    <meta charset="utf-8" />
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-8WRH1G7SZP"></script>
     <script>
@@ -10,7 +11,6 @@
 
       gtag('config', 'G-8WRH1G7SZP');
     </script>
-    <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Eze Promise</title>
@@ -26,7 +26,7 @@
     <div class="wrapper">
       <header>
         <h1 class="logo">Welcome</h1>
-        <button class="menu">
+        <button class="menu" id="menuButton">
           <span class="bar"></span>
           <span class="bar"></span>
           <span class="bar"></span>
@@ -242,16 +242,21 @@
       </section>
     </div>
     <div id="mobileMenuCover" class="mobileMenuCover">
-      <div class="firstContainer">
-        <span id="closeButton" class="closeButton">x</span>
+      <div class="insideContainer">
+        <div class="firstContainer">
+          <span id="closeButton" class="closeButton">x</span>
+        </div>
+        <div>
+          <ul>
+            <li class="mobileMenuItems"><a href="#works" class="mobileMenuItem-a">Porfolio</a></li>
+            <li class="mobileMenuItems"><a href="#about" class="mobileMenuItem-a">About</a></li>
+            <li class="mobileMenuItems"><a href="#contact" class="mobileMenuItem-a">Contact</a></li>
+          </ul>
+        </div>
       </div>
-      <div>
-        <ul>
-          <li class="mobileMenuItems"><a href="#Porfolio" class="mobileMenuItem-a">Porfolio</a></li>
-          <li class="mobileMenuItems"><a href="#About" class="mobileMenuItem-a">About</a></li>
-          <li class="mobileMenuItems"><a href="#Contact" class="mobileMenuItem-a">Contact</a></li>
-        </ul>
-      </div>
+      
     </div>
+
+    <script src="./js/script.js"></script>
   </body>
 </html>
