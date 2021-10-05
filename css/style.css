@@ -671,17 +671,41 @@ section h2 {
   margin-bottom: 16px;
 }
 
+.project-description {
+  color: #344563;
+  line-height: 24px;
+}
+
 .modal-button {
   display: flex;
-    justify-content: space-around;
+  justify-content: space-around;
 }
 
 .modal-button img{
   width: 20px;
-    margin-left: 10px;
+  margin-left: 10px;
 }
 
 .modalButtons {
   display: flex;
-    justify-content: space-evenly;
+  justify-content: space-evenly;
+}
+
+.projectDetailsModal .projectDetailsModalTechGroup {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0;
+  list-style: none;
+  padding-left: 0;
+}
+
+.techModal{
+  background: #ebf0ee;
+  border-radius: 4px;
+  padding: 10px;
+  font-size: 12px;
+  font-weight: 600;
+  color: #3a4a42;
+  line-height: 16px;
+  margin: 0 6px;
 }
