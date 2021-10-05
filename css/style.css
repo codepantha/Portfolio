@@ -633,11 +633,55 @@ section h2 {
   display: flex;
   flex-direction: column;
   border-radius: 8px;
-  min-height: 400px;
+  min-height: 300px;
   margin-bottom: 5px;
-  align-items: center;
+  align-items: flex-start;
 }
 
 .modal-img {
   width: 100%;
+  border-radius: 11px;
+}
+
+.projectDetailsModal {
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  background-color: lightgray;
+  height: 100vh;
+  display: block;
+  overflow-y: auto;
+}
+
+.innerDiv {
+  background-color: white;
+  margin: 4px;
+  border: 1px solid transparent;
+  border-radius: 12px;
+  padding: 15px;
+}
+
+.title-modal-align {
+  font-size: 24px;
+  font-weight: 600;
+  color: #3a4a42;
+  letter-spacing: 1px;
+  margin-top: 16px;
+  margin-bottom: 16px;
+}
+
+.modal-button {
+  display: flex;
+    justify-content: space-around;
+}
+
+.modal-button img{
+  width: 20px;
+    margin-left: 10px;
+}
+
+.modalButtons {
+  display: flex;
+    justify-content: space-evenly;
 }
