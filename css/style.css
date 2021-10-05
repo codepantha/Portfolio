@@ -586,17 +586,18 @@ section h2 {
 }
 
 @media only screen and (min-width: 768px) {
-  .details-without-img{
+  .details-without-img {
     position: relative;
   }
-  .modalButtons{
+
+  .modalButtons {
     justify-content: inherit;
     position: absolute;
     top: 0;
     right: 10px;
-
   }
-  .modalButtons button{
+
+  .modalButtons button {
     margin-right: 5px;
   }
 
@@ -610,7 +611,7 @@ section h2 {
 
   .close-modal-button {
     position: initial !important;
-    background-color: #EcEcf0 !important;
+    background-color: #ececf0 !important;
     border-radius: 8px;
     width: 40px;
     height: 40px;
@@ -619,7 +620,6 @@ section h2 {
     margin-bottom: 14px;
   }
 }
-
 
 .mobileMenuCover {
   position: fixed;
@@ -722,7 +722,7 @@ section h2 {
   justify-content: space-around;
 }
 
-.modal-button img{
+.modal-button .modal-button-img {
   width: 20px;
   margin-left: 10px;
 }
@@ -740,7 +740,7 @@ section h2 {
   padding-left: 0;
 }
 
-.techModal{
+.techModal {
   background: #ebf0ee;
   border-radius: 4px;
   padding: 10px;
@@ -756,6 +756,6 @@ section h2 {
   top: 4%;
   right: 10%;
   background-color: transparent;
-  border: 0px;
+  border: 0;
   color: white;
 }
