@@ -585,6 +585,42 @@ section h2 {
   }
 }
 
+@media only screen and (min-width: 768px) {
+  .details-without-img {
+    position: relative;
+  }
+
+  .modalButtons {
+    justify-content: inherit;
+    position: absolute;
+    top: 0;
+    right: 10px;
+  }
+
+  .modalButtons button {
+    margin-right: 5px;
+  }
+
+  .project-description {
+    margin: 25px 0;
+  }
+
+  .innerDiv {
+    margin: 6% 4% !important;
+  }
+
+  .close-modal-button {
+    position: initial !important;
+    background-color: #ececf0 !important;
+    border-radius: 8px;
+    width: 40px;
+    height: 40px;
+    font-size: 17px;
+    color: black !important;
+    margin-bottom: 14px;
+  }
+}
+
 .mobileMenuCover {
   position: fixed;
   left: 0;
@@ -627,4 +663,99 @@ section h2 {
 
 .closeButton {
   color: #67798e;
+}
+
+.modal-card {
+  display: flex;
+  flex-direction: column;
+  border-radius: 8px;
+  min-height: 300px;
+  margin-bottom: 5px;
+  align-items: flex-start;
+}
+
+.modal-img {
+  width: 100%;
+  border-radius: 11px;
+}
+
+.projectDetailsModal {
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  background-color: lightgray;
+  height: 100vh;
+  display: none;
+  overflow-y: auto;
+}
+
+.innerDiv {
+  background-color: white;
+  margin: 4px;
+  border: 1px solid transparent;
+  border-radius: 12px;
+  padding: 15px;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-content: flex-end;
+  align-items: flex-end;
+}
+
+.title-modal-align {
+  font-size: 24px;
+  font-weight: 600;
+  color: #3a4a42;
+  letter-spacing: 1px;
+  margin-top: 16px;
+  margin-bottom: 16px;
+}
+
+.project-description {
+  color: #344563;
+  line-height: 24px;
+}
+
+.modal-button {
+  display: flex;
+  justify-content: space-around;
+}
+
+.modal-button .modal-button-img {
+  width: 20px;
+  margin-left: 10px;
+}
+
+.modalButtons {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.projectDetailsModal .projectDetailsModalTechGroup {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0;
+  list-style: none;
+  padding-left: 0;
+}
+
+.techModal {
+  background: #ebf0ee;
+  border-radius: 4px;
+  padding: 10px;
+  font-size: 12px;
+  font-weight: 600;
+  color: #3a4a42;
+  line-height: 16px;
+  margin: 0 6px;
+}
+
+.close-modal-button {
+  position: absolute;
+  top: 4%;
+  right: 10%;
+  background-color: transparent;
+  border: 0;
+  color: white;
 }
