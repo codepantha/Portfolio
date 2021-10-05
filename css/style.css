@@ -628,3 +628,16 @@ section h2 {
 .closeButton {
   color: #67798e;
 }
+
+.modal-card {
+  display: flex;
+  flex-direction: column;
+  border-radius: 8px;
+  min-height: 400px;
+  margin-bottom: 5px;
+  align-items: center;
+}
+
+.modal-img {
+  width: 100%;
+}
