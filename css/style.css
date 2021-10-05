@@ -686,7 +686,7 @@ section h2 {
   width: 100%;
   background-color: lightgray;
   height: 100vh;
-  display: block;
+  display: none;
   overflow-y: auto;
 }
 
