@@ -13,7 +13,7 @@
 - CSS
 - JAVASCRIPT
 
-## Live Demo
+## Live Demo 🔗
 
 [Live Demo Link](https://code-panther.github.io/Portfolio/)
 
