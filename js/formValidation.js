@@ -11,10 +11,11 @@ function validateForm(form) {
   } else {
     const errorMessage = "Email should be lowercase.";
     emailError.innerHTML = errorMessage;
+    emailError.style.display = "block";
     form.email.focus();
-    console.log('false')
+    email.style.border = "1px solid red";
+    email.style.boxShadow = '0 0 2pt 1pt #ff0000';
     return false;
-    
   }
 }
 

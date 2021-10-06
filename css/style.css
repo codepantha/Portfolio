@@ -780,3 +780,10 @@ section h2 {
   width: 120.891px;
   box-shadow: 2px 5px 10px #3a4a42;
 }
+
+.emailError {
+  font-size: 14px;
+  font-weight: 500;
+  color: red;
+  display: none;
+}
