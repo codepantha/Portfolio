@@ -243,6 +243,7 @@ section h2 {
 
 #about button.get-resume {
   align-self: center;
+  z-index: 1;
 }
 
 .skill {
@@ -619,6 +620,15 @@ section h2 {
     color: black !important;
     margin-bottom: 14px;
   }
+
+  .close-modal-button:hover {
+    background: #3a4a42 !important;
+    color: #fff !important;
+  }
+
+  .close-modal-button:active {
+    color: red !important;
+  }
 }
 
 .mobileMenuCover {
@@ -758,4 +768,15 @@ section h2 {
   background-color: transparent;
   border: 0;
   color: white;
+}
+
+.grow {
+  width: 113.891px;
+  transition: height 0.3s, width 0.3s;
+}
+
+.grow:hover {
+  height: 55px;
+  width: 120.891px;
+  box-shadow: 2px 5px 10px #3a4a42;
 }
