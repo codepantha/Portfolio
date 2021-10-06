@@ -3,13 +3,18 @@
   <head>
     <meta charset="utf-8" />
     <!-- Global site tag (gtag.js) - Google Analytics -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-8WRH1G7SZP"></script>
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=G-8WRH1G7SZP"
+    ></script>
     <script>
       window.dataLayer = window.dataLayer || [];
-      function gtag(){window.dataLayer.push(arguments);}
-      gtag('js', new Date());
+      function gtag() {
+        window.dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
 
-      gtag('config', 'G-8WRH1G7SZP');
+      gtag("config", "G-8WRH1G7SZP");
     </script>
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -73,8 +78,8 @@
       <section id="about" class="grid">
         <div class="card">
           <h2>About me</h2>
-          <img class="about-img" src="./img/about.svg" alt="about-img">
-          <img class="about-img2" src="./img/about2.svg" alt="about-img">
+          <img class="about-img" src="./img/about.svg" alt="about-img" />
+          <img class="about-img2" src="./img/about2.svg" alt="about-img" />
           <p>
             I can help you build a product , feature or website Look through
             some of my work and experience! If you like what you see and have a
@@ -122,10 +127,10 @@
           to chat please get in touch.
         </p>
         <form
-          action="https://formspree.io/f/mrgrjoyw"
           method="POST"
+          action="https://formspree.io/f/mrgrjoyw"
           id="submitForm"
-          onsubmit="return validateForm(e)"
+          onsubmit="return validateForm(this)"
         >
           <input
             type="text"
@@ -141,7 +146,7 @@
             placeholder="john@example.com"
             required
           />
-          <span class="emailError"></span>
+          <span class="emailError" id="emailError"></span>
           <textarea
             maxlength="500"
             name="message"
@@ -150,12 +155,28 @@
             rows="10"
             required
           ></textarea>
-          <button class="btn" type="submit" id="submit">Get in touch</button>
+          <button class="btn" type="submit">Get in touch</button>
         </form>
-        <img class="contact-area-img" src="./img/contact-image.svg" alt="contact-image1">
-        <img class="contact-area-img2" src="./img/contact-image2.svg" alt="contact-image2">
-        <img class="contact-area-img3" src="./img/contact-image3.svg" alt="contact-image3">
-        <img class="contact-area-img4" src="./img/contact-mobile.svg" alt="contact-mobile">
+        <img
+          class="contact-area-img"
+          src="./img/contact-image.svg"
+          alt="contact-image1"
+        />
+        <img
+          class="contact-area-img2"
+          src="./img/contact-image2.svg"
+          alt="contact-image2"
+        />
+        <img
+          class="contact-area-img3"
+          src="./img/contact-image3.svg"
+          alt="contact-image3"
+        />
+        <img
+          class="contact-area-img4"
+          src="./img/contact-mobile.svg"
+          alt="contact-mobile"
+        />
 
         <div class="socials">
           <img class="icon" alt="twitter" src="./img/twitter.png" />
@@ -164,7 +185,9 @@
           <img class="icon" alt="github" src="./img/github.png" />
           <img class="icon" alt="angellist" src="./img/angellist.png" />
         </div>
-        <a class="email" href="mailto:pezechigozirim@gmail.com">pezechigozirim@gmail.com</a>
+        <a class="email" href="mailto:pezechigozirim@gmail.com"
+          >pezechigozirim@gmail.com</a
+        >
         <hr class="bottom-bar" />
       </section>
     </div>
@@ -175,9 +198,15 @@
         </div>
         <div>
           <ul>
-            <li class="mobileMenuItems"><a href="#works" class="mobileMenuItem-a">Porfolio</a></li>
-            <li class="mobileMenuItems"><a href="#about" class="mobileMenuItem-a">About</a></li>
-            <li class="mobileMenuItems"><a href="#contact" class="mobileMenuItem-a">Contact</a></li>
+            <li class="mobileMenuItems">
+              <a href="#works" class="mobileMenuItem-a">Porfolio</a>
+            </li>
+            <li class="mobileMenuItems">
+              <a href="#about" class="mobileMenuItem-a">About</a>
+            </li>
+            <li class="mobileMenuItems">
+              <a href="#contact" class="mobileMenuItem-a">Contact</a>
+            </li>
           </ul>
         </div>
       </div>
@@ -187,18 +216,27 @@
       <div class="innerDiv">
         <button class="close-modal-button">X</button>
         <div class="modal-card">
-          <img src="" alt="smartfacedetector" class="modal-img" id="modal-img"/>
+          <img
+            src=""
+            alt="smartfacedetector"
+            class="modal-img"
+            id="modal-img"
+          />
           <div class="details-without-img">
             <div>
               <h4 class="title-modal-align" id="modal-title"></h4>
             </div>
-            <ul class="projectDetailsModalTechGroup" id="modal-tech">
-            </ul>
-            <div class="project-description" id="modal-desc">
-            </div>
+            <ul class="projectDetailsModalTechGroup" id="modal-tech"></ul>
+            <div class="project-description" id="modal-desc"></div>
             <div class="modalButtons">
-              <button class="btn modal-button" type="submit">See Live <img class="modal-button-img" src="./img/live-icon.png"/></button>
-              <button class="btn modal-button" type="submit">See Source <img class="modal-button-img" src="./img/github-white.png"/></button>
+              <button class="btn modal-button" type="submit">
+                See Live
+                <img class="modal-button-img" src="./img/live-icon.png" />
+              </button>
+              <button class="btn modal-button" type="submit">
+                See Source
+                <img class="modal-button-img" src="./img/github-white.png" />
+              </button>
             </div>
           </div>
         </div>
