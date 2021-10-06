@@ -4,6 +4,8 @@
 
 > This is my portfolio website showcasing my skills and works.
 
+![Porfolio project](img/portfolio.PNG)
+
 
 ## Built With
 
@@ -11,7 +13,7 @@
 - CSS
 - JAVASCRIPT
 
-## Live Demo
+## Live Demo 🔗
 
 [Live Demo Link](https://code-panther.github.io/Portfolio/)
 
