@@ -106,7 +106,7 @@ section.headline {
 
 .grid {
   display: grid;
-  grid-template-columns: 327px;
+  grid-template-columns: 100%;
   padding: 10px;
   text-align: center;
   justify-content: center;
@@ -452,7 +452,7 @@ section h2 {
 
   .grid {
     grid-template-columns: 29% 29% 29%;
-    grid-gap: 1%;
+    grid-gap: 3%;
   }
 
   .grid h2 {

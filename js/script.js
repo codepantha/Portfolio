@@ -4,9 +4,8 @@ const menuCover = document.getElementById('mobileMenuCover');
 const main = document.querySelector('.main');
 const mobileItems = document.querySelectorAll('.mobileMenuItems');
 let modalState = 'closed';
-
-// Work section
 const workSection = document.getElementById('works');
+
 const arrayOfProjects = [
   {
     image: './img/smartfacedetector.PNG',
@@ -44,23 +43,26 @@ const arrayOfProjects = [
     tech: ['nodejs', 'css', 'Javascript', 'html'],
     description: "uriwueriuroiweurLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaoeqwiuroweiruweriuweoruiwe",
   },
-
 ];
 
-for (let x = 0; x < arrayOfProjects.length; x += 1) {
-  workSection.innerHTML += `<div class="card border">
-  <img src="${arrayOfProjects[x].image}" alt="${arrayOfProjects[x].title}" />
-  <div class="project-name">
-    <h4>${arrayOfProjects[x].title}</h4>
-  </div>
-  <ul class="tech-group">
-  ${arrayOfProjects[x].tech
+function createProjectCards() {
+  for (let x = 0; x < arrayOfProjects.length; x += 1) {
+    workSection.innerHTML += `<div class="card border">
+    <img src="${arrayOfProjects[x].image}" alt="${arrayOfProjects[x].title}" />
+    <div class="project-name">
+      <h4>${arrayOfProjects[x].title}</h4>
+    </div>
+    <ul class="tech-group">
+    ${arrayOfProjects[x].tech
     .map((tech) => `<li class="tech">${tech}</li>`)
     .join(' ')}
-  </ul>
-  <button class="btn grow" onclick="toggleModal(${x})" type="button">See Project</button>
-</div>`;
+    </ul>
+    <button class="btn grow" onclick="toggleModal(${x})" type="button">See Project</button>
+  </div>`;
+  }
 }
+
+createProjectCards();
 
 const modalTech = document.getElementById('modal-tech');
 
@@ -103,4 +105,3 @@ mobileItems.forEach((element) => {
 
 menuButton.addEventListener('click', toggleMenu);
 closeButton.addEventListener('click', closeMenu);
-menuButton.addEventListener('click', toggleMenu);
