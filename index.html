@@ -124,6 +124,8 @@
         <form
           action="https://formspree.io/f/mrgrjoyw"
           method="POST"
+          id="submitForm"
+          onsubmit="return validateForm(e)"
         >
           <input
             type="text"
@@ -133,11 +135,13 @@
             required
           />
           <input
+            id="email"
             type="email"
             name="email"
             placeholder="john@example.com"
             required
           />
+          <span class="emailError"></span>
           <textarea
             maxlength="500"
             name="message"
@@ -146,7 +150,7 @@
             rows="10"
             required
           ></textarea>
-          <button class="btn" type="submit">Get in touch</button>
+          <button class="btn" type="submit" id="submit">Get in touch</button>
         </form>
         <img class="contact-area-img" src="./img/contact-image.svg" alt="contact-image1">
         <img class="contact-area-img2" src="./img/contact-image2.svg" alt="contact-image2">
@@ -202,5 +206,6 @@
     </div>
 
     <script src="./js/script.js"></script>
+    <script src="./js/formValidation.js"></script>
   </body>
 </html>
