@@ -40,6 +40,7 @@ const onChangeInputHandler = (event) => {
   localStorage.setItem('userData', JSON.stringify(localData));
 };
 
+//* **When page loads fetch and display user data if it exists ***/
 const fetchUserData = JSON.parse(localStorage.getItem('userData'));
 
 if (fetchUserData) {
