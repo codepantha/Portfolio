@@ -140,6 +140,7 @@ section h2 {
   min-height: 400px;
   margin-bottom: 24px;
   align-items: center;
+  box-shadow: 2px 5px 10px #888;
 }
 
 #works .card img {
@@ -254,6 +255,11 @@ section h2 {
   margin-bottom: 24px;
   background: #ebf0ee;
   align-items: center;
+  transition: box-shadow 0.3s;
+}
+
+.skill:hover {
+  box-shadow: 2px 5px 10px #888;
 }
 
 .skill .skill-icon {
