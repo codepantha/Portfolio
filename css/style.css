@@ -140,6 +140,10 @@ section h2 {
   min-height: 400px;
   margin-bottom: 24px;
   align-items: center;
+  transition: box-shadow 0.3s;
+}
+
+.card:hover {
   box-shadow: 2px 5px 10px #888;
 }
 
