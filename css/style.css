@@ -484,7 +484,7 @@ section h2 {
 
   #about .card {
     grid-column: 1 / 4;
-    padding: 0 200px;
+    padding: 35px 200px 0;
     margin-bottom: 0;
     letter-spacing: 1px;
   }
