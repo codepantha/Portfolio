@@ -135,9 +135,11 @@
           <input
             type="text"
             name="name"
+            id="name"
             maxlength="30"
             placeholder="John Doe"
             required
+            oninput="onChangeInputHandler(this)"
           />
           <input
             id="email"
@@ -145,15 +147,20 @@
             name="email"
             placeholder="john@example.com"
             required
+            oninput="onChangeInputHandler(this)"
+
           />
           <span class="emailError" id="emailError"></span>
           <textarea
             maxlength="500"
             name="message"
+            id="message"
             placeholder="Enter text here"
             cols="50"
             rows="10"
             required
+            oninput="onChangeInputHandler(this)"
+
           ></textarea>
           <button class="btn" type="submit">Get in touch</button>
         </form>
