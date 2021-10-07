@@ -2,6 +2,7 @@
 const email = document.getElementById('email');
 const nameInput = document.getElementById('name');
 const messageInput = document.getElementById('message');
+
 function validateForm(form) {
   const emailError = document.getElementById('emailError');
 
@@ -17,46 +18,33 @@ function validateForm(form) {
   return false;
 }
 
-
- //****Saving oninput fields****//
-let localData = {name: "", email: "", message: ""}
+let localData = { name: '', email: '', message: '' };
 
 const onChangeInputHandler = (event) => {
-  // console.log(event.target.value)
-  // console.log("input:",event.value)
-  // console.log(event.name)
-
-  switch(event.name){
-    case "name":
-    localData = {...localData, name: event.value}
-    break;
-    case "email":
-      localData = {...localData, email: event.value}
+  switch (event.name) {
+    case 'name':
+      localData = { ...localData, name: event.value };
       break;
-    case "message":
-      localData = {...localData, message: event.value}
+    case 'email':
+      localData = { ...localData, email: event.value };
+      break;
+    case 'message':
+      localData = { ...localData, message: event.value };
       break;
 
     default:
-    
-    break;
+
+      break;
   }
 
-  localStorage.setItem("data", JSON.stringify(localData))
+  localStorage.setItem('userData', JSON.stringify(localData));
+};
 
+//* **When page loads fetch and display user data if it exists ***/
+const fetchUserData = JSON.parse(localStorage.getItem('userData'));
+
+if (fetchUserData) {
+  email.value = fetchUserData.email;
+  nameInput.value = fetchUserData.name;
+  messageInput.value = fetchUserData.message;
 }
-
-//***When page reloads ***/
-
-let reloadData = JSON.parse(localStorage.getItem("data"))
-
-if(reloadData){
-  email.value = reloadData.email
-  nameInput.value = reloadData.name
-  messageInput.value = reloadData.message
-}
-
-
-
-
-
