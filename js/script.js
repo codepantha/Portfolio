@@ -11,37 +11,55 @@ const arrayOfProjects = [
     image: './img/smartfacedetector.PNG',
     title: 'My Smart Face Detector App',
     tech: ['ruby', 'css', 'Javascript', 'html'],
-    description: "uriwueriuroiweurLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaoeqwiuroweiruweriuweoruiwe",
+    description:
+      "uriwueriuroiweurLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaoeqwiuroweiruweriuweoruiwe",
+    live: '',
+    github: '',
   },
   {
     image: './img/jagabuy.PNG',
     title: 'Jagabuy Online Shopping Store',
     tech: ['nodejs', 'css', 'Javascript', 'html'],
-    description: "uriwueriuroiweurLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaoeqwiuroweiruweriuweoruiwe",
+    description:
+      "uriwueriuroiweurLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaoeqwiuroweiruweriuweoruiwe",
+    live: '',
+    github: '',
   },
   {
     image: './img/rephidim.PNG',
     title: 'Rephidim Microfinance Bank',
     tech: ['nodejs', 'css', 'Javascript', 'html'],
-    description: "uriwueriuroiweurLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaoeqwiuroweiruweriuweoruiwe",
+    description:
+      "uriwueriuroiweurLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaoeqwiuroweiruweriuweoruiwe",
+    live: '',
+    github: '',
   },
   {
-    image: './img/smartfacedetector.PNG',
-    title: 'My Smart Face Detector App',
-    tech: ['nodejs', 'css', 'Javascript', 'html'],
-    description: "uriwueriuroiweurLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaoeqwiuroweiruweriuweoruiwe",
+    image: './img/codeniversity.PNG',
+    title: 'Codeniversity e-learning',
+    tech: ['html', 'css', 'Javascript'],
+    description:
+      'This is a mobile-first website for a hypothetical coding course. The technology employed in the development of this beautiful project is HTML, CSS, and Javascript. The project showcases my ability to develop highly responsive UI which renders well on any device using cutting-edge CSS like flexbox and grids.',
+    live: 'https://codeniversity.netlify.app/index.html',
+    github: 'https://github.com/codepantherr/capstone-project-1',
   },
   {
-    image: './img/jagabuy.PNG',
-    title: 'Jagabuy Online Shopping Store',
-    tech: ['nodejs', 'css', 'Javascript', 'html'],
-    description: "uriwueriuroiweurLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaoeqwiuroweiruweriuweoruiwe",
+    image: './img/todolist.PNG',
+    title: 'TO-DO List Application',
+    tech: ['html', 'css', 'Javascript', 'webpack'],
+    description:
+      'This is a todo-list application built with a mobile-first approach. This project proves my ability to write clean Javascript code using employing best practices and making the UI interactive and fun to use. This application gives users the functionality to create, read, update and delete todo tasks. Tasks can also be marked as completed, and completed tasks can be cleared at a go from the list.',
+    live: 'https://codepantherr.github.io/to-do-list/dist/',
+    github: 'https://github.com/codepantherr/to-do-list',
   },
   {
     image: './img/rephidim.PNG',
     title: 'Rephidim Microfinance Bank',
     tech: ['nodejs', 'css', 'Javascript', 'html'],
-    description: "uriwueriuroiweurLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaoeqwiuroweiruweriuweoruiwe",
+    description:
+      "uriwueriuroiweurLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaoeqwiuroweiruweriuweoruiwe",
+    live: '',
+    github: '',
   },
 ];
 
@@ -71,6 +89,13 @@ function toggleModal(position = null) {
     document.getElementById('modal-title').innerHTML = arrayOfProjects[position].title;
     document.getElementById('modal-img').src = arrayOfProjects[position].image;
 
+    /* eslint-disable no-return-assign */
+    const seeLiveButton = document.getElementById('live');
+    seeLiveButton.addEventListener('click', () => window.location.href = arrayOfProjects[position].live);
+
+    const seeSourceCode = document.getElementById('github');
+    seeSourceCode.addEventListener('click', () => window.location.href = arrayOfProjects[position].github);
+
     for (let i = 0; i < arrayOfProjects[position].tech.length; i += 1) {
       modalTech.innerHTML += `<li class="tech">${arrayOfProjects[position].tech[i]}</li>`;
     }
@@ -85,7 +110,9 @@ function toggleModal(position = null) {
   }
 }
 
-document.querySelector('.close-modal-button').addEventListener('click', () => toggleModal());
+document
+  .querySelector('.close-modal-button')
+  .addEventListener('click', () => toggleModal());
 
 function toggleMenu() {
   menuButton.style.display = 'none';
