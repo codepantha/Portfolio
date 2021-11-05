@@ -15,7 +15,7 @@
 
 ## Live Demo 🔗
 
-[Live Demo Link](https://code-panther.github.io/Portfolio/)
+[Live Demo Link](https://codepantherr.github.io/Portfolio/)
 
 
 ## Getting Started
