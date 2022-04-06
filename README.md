@@ -15,7 +15,7 @@
 
 ## Live Demo 🔗
 
-[Live Demo Link](https://codepantherr.github.io/Portfolio/)
+[Live Demo Link](https://codepantha.github.io/Portfolio/)
 
 
 ## Getting Started
@@ -29,7 +29,7 @@ There are no prerequisites
 
 ### Setup
 Just clone the repository to your local machine and you are all set.
-`git clone https://github.com/Code-panther/Portfolio.git`
+`git clone https://github.com/codepantha/Portfolio.git`
 
 
 
@@ -37,8 +37,8 @@ Just clone the repository to your local machine and you are all set.
 
 👤 **Author**
 
-- GitHub: [@Code-panther](https://github.com/Code-panther)
-- Twitter: [@codepantherr](https://twitter.com/codepantherr)
+- GitHub: [@codepantha](https://github.com/codepantha)
+- Twitter: [@codepantha](https://twitter.com/codepantha)
 - LinkedIn: [promise-eze](https://linkedin.com/in/promise-eze)
 
 ## 🤝 Contributing
