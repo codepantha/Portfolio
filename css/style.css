@@ -92,6 +92,7 @@ section.headline {
   margin: 0 10px;
   width: 14px;
   height: 14px;
+  vertical-align: top;
 }
 
 .socials .icon:hover {
