@@ -1,19 +1,25 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
   <head>
+    <meta charset="utf-8" />
     <!-- Global site tag (gtag.js) - Google Analytics -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-8WRH1G7SZP"></script>
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=G-8WRH1G7SZP"
+    ></script>
     <script>
       window.dataLayer = window.dataLayer || [];
-      function gtag(){window.dataLayer.push(arguments);}
-      gtag('js', new Date());
+      function gtag() {
+        window.dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
 
-      gtag('config', 'G-8WRH1G7SZP');
+      gtag("config", "G-8WRH1G7SZP");
     </script>
-    <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Eze Promise Portfolio</title>
+    <meta property="og:image" content="https://raw.githubusercontent.com/codepantherr/Portfolio/main/img/portfolio.PNG">
+    <title>Eze Promise</title>
     <link rel="stylesheet" href="./css/style.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -26,7 +32,7 @@
     <div class="wrapper">
       <header>
         <h1 class="logo">Welcome</h1>
-        <button class="menu">
+        <button class="menu" id="menuButton">
           <span class="bar"></span>
           <span class="bar"></span>
           <span class="bar"></span>
@@ -77,91 +83,14 @@
       <section id="works" class="grid">
         <h2>My Recent Works</h2>
         <hr />
-        <div class="card border">
-          <img src="./img/smartfacedetector.PNG" alt="smartfacedetector" />
-          <div class="project-name">
-            <h4>My Smart Face Detector App</h4>
-          </div>
-          <ul class="tech-group">
-            <li class="tech">Nodejs</li>
-            <li class="tech">css</li>
-            <li class="tech">Javascript</li>
-            <li class="tech">html</li>
-          </ul>
-          <button class="btn" type="button">See Project</button>
-        </div>
-        <div class="card border">
-          <img src="./img/jagabuy.PNG" alt="jagabuy" />
-          <div class="project-name">
-            <h4>Jagabuy Online Shopping Store</h4>
-          </div>
-          <ul class="tech-group">
-            <li class="tech">Nodejs</li>
-            <li class="tech">css</li>
-            <li class="tech">Javascript</li>
-            <li class="tech">html</li>
-          </ul>
-          <button class="btn" type="button">See Project</button>
-        </div>
-        <div class="card border">
-          <img src="./img/rephidim.PNG" alt="rephidim" />
-          <div class="project-name">
-            <h4>Rephidim Microfinance Bank</h4>
-          </div>
-          <ul class="tech-group">
-            <li class="tech">Nodejs</li>
-            <li class="tech">css</li>
-            <li class="tech">Javascript</li>
-            <li class="tech">html</li>
-          </ul>
-          <button class="btn" type="button">See Project</button>
-        </div>
-        <div class="card border">
-          <img src="./img/smartfacedetector.PNG" alt="smartfacedetector" />
-          <div class="project-name">
-            <h4>My Smart Face Detector App</h4>
-          </div>
-          <ul class="tech-group">
-            <li class="tech">Nodejs</li>
-            <li class="tech">css</li>
-            <li class="tech">Javascript</li>
-            <li class="tech">html</li>
-          </ul>
-          <button class="btn" type="button">See Project</button>
-        </div>
-        <div class="card border">
-          <img src="./img/jagabuy.PNG" alt="jagabuy" />
-          <div class="project-name">
-            <h4>Jagabuy Online Shopping Store</h4>
-          </div>
-          <ul class="tech-group">
-            <li class="tech">Nodejs</li>
-            <li class="tech">css</li>
-            <li class="tech">Javascript</li>
-            <li class="tech">html</li>
-          </ul>
-          <button class="btn" type="button">See Project</button>
-        </div>
-        <div class="card border">
-          <img src="./img/rephidim.PNG" alt="rephidim" />
-          <div class="project-name">
-            <h4>Rephidim Microfinance Bank</h4>
-          </div>
-          <ul class="tech-group">
-            <li class="tech">Nodejs</li>
-            <li class="tech">css</li>
-            <li class="tech">Javascript</li>
-            <li class="tech">html</li>
-          </ul>
-          <button class="btn" type="button">See Project</button>
-        </div>
+        <!-- Projects are shown dynamically -->
       </section>
 
       <section id="about" class="grid">
         <div class="card">
           <h2>About me</h2>
-          <img class="about-img" src="./img/about.svg" alt="about-img">
-          <img class="about-img2" src="./img/about2.svg" alt="about-img">
+          <img class="about-img" src="./img/about.svg" alt="about-img" />
+          <img class="about-img2" src="./img/about2.svg" alt="about-img" />
           <p>
             I can help you build a product , feature or website Look through
             some of my work and experience! If you like what you see and have a
@@ -209,36 +138,63 @@
           to chat please get in touch.
         </p>
         <form
-          action="https://formspree.io/f/mrgrjoyw"
           method="POST"
+          action="https://formspree.io/f/mrgrjoyw"
+          id="submitForm"
+          onsubmit="return validateForm(this)"
         >
           <input
             type="text"
             name="name"
+            id="name"
             maxlength="30"
             placeholder="John Doe"
             required
+            oninput="onChangeInputHandler(this)"
           />
           <input
+            id="email"
             type="email"
             name="email"
             placeholder="john@example.com"
             required
+            oninput="onChangeInputHandler(this)"
+
           />
+          <span class="emailError" id="emailError"></span>
           <textarea
             maxlength="500"
             name="message"
+            id="message"
             placeholder="Enter text here"
             cols="50"
             rows="10"
             required
+            oninput="onChangeInputHandler(this)"
+
           ></textarea>
           <button class="btn" type="submit">Get in touch</button>
         </form>
-        <img class="contact-area-img" src="./img/contact-image.svg" alt="contact-image1">
-        <img class="contact-area-img2" src="./img/contact-image2.svg" alt="contact-image2">
-        <img class="contact-area-img3" src="./img/contact-image3.svg" alt="contact-image3">
-        <img class="contact-area-img4" src="./img/contact-mobile.svg" alt="contact-mobile">
+        <img
+          class="contact-area-img"
+          src="./img/contact-image.svg"
+          alt="contact-image1"
+        />
+        <img
+          class="contact-area-img2"
+          src="./img/contact-image2.svg"
+          alt="contact-image2"
+        />
+        <img
+          class="contact-area-img3"
+          src="./img/contact-image3.svg"
+          alt="contact-image3"
+        />
+        <img
+          class="contact-area-img4"
+          src="./img/contact-mobile.svg"
+          alt="contact-mobile"
+        />
 
         <div class="socials">
           <a href="#" class="social-icon">
@@ -257,9 +213,65 @@
             <img class="icon" alt="angellist" src="./img/angellist.png" />
           </a>
         </div>
-        <a class="email" href="mailto:pezechigozirim@gmail.com">pezechigozirim@gmail.com</a>
+        <a class="email" href="mailto:pezechigozirim@gmail.com"
+          >pezechigozirim@gmail.com</a
+        >
         <hr class="bottom-bar" />
       </section>
     </div>
+    <div id="mobileMenuCover" class="mobileMenuCover">
+      <div class="insideContainer">
+        <div class="firstContainer">
+          <span id="closeButton" class="closeButton">x</span>
+        </div>
+        <div>
+          <ul>
+            <li class="mobileMenuItems">
+              <a href="#works" class="mobileMenuItem-a">Porfolio</a>
+            </li>
+            <li class="mobileMenuItems">
+              <a href="#about" class="mobileMenuItem-a">About</a>
+            </li>
+            <li class="mobileMenuItems">
+              <a href="#contact" class="mobileMenuItem-a">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <div class="projectDetailsModal gray">
+      <div class="innerDiv">
+        <button class="close-modal-button">X</button>
+        <div class="modal-card">
+          <img
+            src="./img/rephidim.PNG"
+            alt="smartfacedetector"
+            class="modal-img"
+            id="modal-img"
+          />
+          <div class="details-without-img">
+            <div>
+              <h4 class="title-modal-align" id="modal-title"></h4>
+            </div>
+            <ul class="projectDetailsModalTechGroup" id="modal-tech"></ul>
+            <div class="project-description" id="modal-desc"></div>
+            <div class="modalButtons">
+              <button id="live" class="btn modal-button" type="submit">
+                See Live
+                <img class="modal-button-img" src="./img/live-icon.png" alt="live"/>
+              </button>
+              <button id="github" class="btn modal-button" type="submit">
+                See Source
+                <img class="modal-button-img" src="./img/github-white.png" alt="source"/>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="./js/script.js"></script>
+    <script src="./js/formValidation.js"></script>
   </body>
 </html>
