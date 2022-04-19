@@ -53,7 +53,7 @@ const arrayOfProjects = [
     github: 'https://github.com/codepantha/chuck-norris-facts',
   },
   {
-    image: 'https://raw.githubusercontent.com/codepantha/convertir/dev/currency.PNG',
+    image: 'https://user-images.githubusercontent.com/46839548/164096157-c2fcc2e0-47b8-4fdd-85f4-61429ef4de46.png',
     title: 'Convertir',
     tech: ['html', 'css', 'Javascript', 'React', 'Redux', 'Tachyons'],
     description:
