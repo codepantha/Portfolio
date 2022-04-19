@@ -8,6 +8,15 @@ const workSection = document.getElementById('works');
 
 const arrayOfProjects = [
   {
+    image: 'https://user-images.githubusercontent.com/46839548/164096157-c2fcc2e0-47b8-4fdd-85f4-61429ef4de46.png',
+    title: 'Convertir',
+    tech: ['html', 'css', 'Javascript', 'React', 'Redux', 'Tachyons'],
+    description:
+      'A mobile web-based currency converter application with the latest rates built with React and Redux',
+    live: 'https://convertirr.netlify.app/',
+    github: 'https://github.com/codepantha/convertir/',
+  },
+  {
     image: './img/smartfacedetector.PNG',
     title: 'My Smart Face Detector App',
     tech: ['html', 'css', 'JavaScript', 'React'],
@@ -15,6 +24,15 @@ const arrayOfProjects = [
       'A responsive app using the Clarifai API to detect faces in a picture.',
     live: 'https://mysmartfacedetectorapp.herokuapp.com/',
     github: '',
+  },
+  {
+    image: 'https://user-images.githubusercontent.com/46839548/162593740-a9fb2e5b-4e36-4fbc-9c2a-f221e43997d1.png',
+    title: 'Jokes of Chuck',
+    tech: ['html', 'css', 'Javascript', 'React', 'Tailwind css'],
+    description:
+      'Chuck Norris jokes app created with Reactjs, Tailwindcss, and an awesome API from https://api.chucknorris.io. Believe Chuck Norris would kick Superman\'s arse? Welcome to ChuckJokes! A ChuckJoke a day keeps the roundhouse kick away',
+    live: 'http://jokesofchuck.netlify.app/',
+    github: 'https://github.com/codepantha/chuck-norris-facts',
   },
   {
     image: './img/rephidim.PNG',
@@ -42,24 +60,6 @@ const arrayOfProjects = [
       'This is a todo-list application built with a mobile-first approach. This project proves my ability to write clean Javascript code using employing best practices and making the UI interactive and fun to use. This application gives users the functionality to create, read, update and delete todo tasks. Tasks can also be marked as completed, and completed tasks can be cleared at a go from the list.',
     live: 'https://codepantha.github.io/to-do-list/dist/',
     github: 'https://github.com/codepantha/to-do-list',
-  },
-  {
-    image: 'https://user-images.githubusercontent.com/46839548/162593740-a9fb2e5b-4e36-4fbc-9c2a-f221e43997d1.png',
-    title: 'Jokes of Chuck',
-    tech: ['html', 'css', 'Javascript', 'React', 'Tailwind css'],
-    description:
-      'Chuck Norris jokes app created with Reactjs, Tailwindcss, and an awesome API from https://api.chucknorris.io. Believe Chuck Norris would kick Superman\'s arse? Welcome to ChuckJokes! A ChuckJoke a day keeps the roundhouse kick away',
-    live: 'http://jokesofchuck.netlify.app/',
-    github: 'https://github.com/codepantha/chuck-norris-facts',
-  },
-  {
-    image: 'https://user-images.githubusercontent.com/46839548/164096157-c2fcc2e0-47b8-4fdd-85f4-61429ef4de46.png',
-    title: 'Convertir',
-    tech: ['html', 'css', 'Javascript', 'React', 'Redux', 'Tachyons'],
-    description:
-      'A mobile web-based currency converter application with the latest rates built with React and Redux',
-    live: 'https://convertirr.netlify.app/',
-    github: 'https://github.com/codepantha/convertir/',
   },
 ];
 

@@ -141,7 +141,8 @@ section h2 {
   margin-bottom: 24px;
   align-items: center;
   transition: box-shadow 0.3s;
-padding-bottom: 20px;}
+  padding-bottom: 20px;
+}
 
 .card:hover {
   box-shadow: 2px 5px 10px #888;
@@ -149,7 +150,9 @@ padding-bottom: 20px;}
 
 #works .card img {
   width: 100%;
-height: 50%;object-fit: cover;}
+  height: 50%;
+  object-fit: cover;
+}
 
 .project-name h4 {
   font-size: 24px;
@@ -764,8 +767,6 @@ height: 50%;object-fit: cover;}
   list-style: none;
   padding-left: 0;
 }
-
-
 
 .techModal {
   background: #ebf0ee;
