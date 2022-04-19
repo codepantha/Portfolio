@@ -10,28 +10,19 @@ const arrayOfProjects = [
   {
     image: './img/smartfacedetector.PNG',
     title: 'My Smart Face Detector App',
-    tech: ['ruby', 'css', 'Javascript', 'html'],
+    tech: ['html', 'css', 'JavaScript', 'React'],
     description:
-      "uriwueriuroiweurLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaoeqwiuroweiruweriuweoruiwe",
-    live: '',
-    github: '',
-  },
-  {
-    image: './img/jagabuy.PNG',
-    title: 'Jagabuy Online Shopping Store',
-    tech: ['nodejs', 'css', 'Javascript', 'html'],
-    description:
-      "uriwueriuroiweurLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaoeqwiuroweiruweriuweoruiwe",
-    live: '',
+      'A responsive app using the Clarifai API to detect faces in a picture.',
+    live: 'https://mysmartfacedetectorapp.herokuapp.com/',
     github: '',
   },
   {
     image: './img/rephidim.PNG',
     title: 'Rephidim Microfinance Bank',
-    tech: ['nodejs', 'css', 'Javascript', 'html'],
+    tech: ['Laravel', 'css', 'Javascript', 'html'],
     description:
-      "uriwueriuroiweurLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaoeqwiuroweiruweriuweoruiwe",
-    live: '',
+      'A web app for a microfinance bank',
+    live: 'https://rephidimmfb.com',
     github: '',
   },
   {
@@ -41,7 +32,7 @@ const arrayOfProjects = [
     description:
       'This is a mobile-first website for a hypothetical coding course. The technology employed in the development of this beautiful project is HTML, CSS, and Javascript. The project showcases my ability to develop highly responsive UI which renders well on any device using cutting-edge CSS like flexbox and grids.',
     live: 'https://codeniversity.netlify.app/index.html',
-    github: 'https://github.com/codepantherr/capstone-project-1',
+    github: 'https://github.com/codepantha/capstone-project-1',
   },
   {
     image: './img/todolist.PNG',
@@ -49,17 +40,26 @@ const arrayOfProjects = [
     tech: ['html', 'css', 'Javascript', 'webpack'],
     description:
       'This is a todo-list application built with a mobile-first approach. This project proves my ability to write clean Javascript code using employing best practices and making the UI interactive and fun to use. This application gives users the functionality to create, read, update and delete todo tasks. Tasks can also be marked as completed, and completed tasks can be cleared at a go from the list.',
-    live: 'https://codepantherr.github.io/to-do-list/dist/',
-    github: 'https://github.com/codepantherr/to-do-list',
+    live: 'https://codepantha.github.io/to-do-list/dist/',
+    github: 'https://github.com/codepantha/to-do-list',
   },
   {
-    image: './img/rephidim.PNG',
-    title: 'Rephidim Microfinance Bank',
-    tech: ['nodejs', 'css', 'Javascript', 'html'],
+    image: 'https://user-images.githubusercontent.com/46839548/162593740-a9fb2e5b-4e36-4fbc-9c2a-f221e43997d1.png',
+    title: 'Jokes of Chuck',
+    tech: ['html', 'css', 'Javascript', 'React', 'Tailwind css'],
     description:
-      "uriwueriuroiweurLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaoeqwiuroweiruweriuweoruiwe",
-    live: '',
-    github: '',
+      'Chuck Norris jokes app created with Reactjs, Tailwindcss, and an awesome API from https://api.chucknorris.io. Believe Chuck Norris would kick Superman\'s arse? Welcome to ChuckJokes! A ChuckJoke a day keeps the roundhouse kick away',
+    live: 'http://jokesofchuck.netlify.app/',
+    github: 'https://github.com/codepantha/chuck-norris-facts',
+  },
+  {
+    image: 'https://raw.githubusercontent.com/codepantha/convertir/dev/currency.PNG',
+    title: 'Convertir',
+    tech: ['html', 'css', 'Javascript', 'React', 'Redux', 'Tachyons'],
+    description:
+      'A mobile web-based currency converter application with the latest rates built with React and Redux',
+    live: 'https://convertirr.netlify.app/',
+    github: 'https://github.com/codepantha/convertir/',
   },
 ];
 
