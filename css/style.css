@@ -178,7 +178,7 @@ section h2 {
   font-weight: 600;
   color: #3a4a42;
   line-height: 16px;
-  margin: 0 6px;
+  margin: 0 6px 4px 6px;
   flex: 1;
 }
 
@@ -599,6 +599,7 @@ section h2 {
 @media only screen and (min-width: 768px) {
   .details-without-img {
     position: relative;
+    width: 100%;
   }
 
   .modalButtons {
@@ -638,6 +639,10 @@ section h2 {
 
   .close-modal-button:active {
     color: red !important;
+  }
+
+  .projectDetailsModalTechGroup {
+    width: 50%;
   }
 }
 
@@ -759,6 +764,8 @@ section h2 {
   list-style: none;
   padding-left: 0;
 }
+
+
 
 .techModal {
   background: #ebf0ee;
