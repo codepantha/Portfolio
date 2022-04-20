@@ -8,6 +8,15 @@ const workSection = document.getElementById('works');
 
 const arrayOfProjects = [
   {
+    image: 'https://user-images.githubusercontent.com/46839548/164223506-427c2e76-5201-4ec5-80a9-2fec4fdcae56.png',
+    title: 'Gloogle',
+    tech: ['html', 'css', 'Javascript', 'React', 'Redux', 'Tachyons'],
+    description:
+      '"Gloogle" is a Google clone mobile web application built with React and Redux, and uses an API to give you search, news, image, and video results for any search query.',
+    live: 'https://gloogle.netlify.app/',
+    github: 'https://github.com/codepantha/gloogle/',
+  },
+  {
     image: 'https://user-images.githubusercontent.com/46839548/164096157-c2fcc2e0-47b8-4fdd-85f4-61429ef4de46.png',
     title: 'Convertir',
     tech: ['html', 'css', 'Javascript', 'React', 'Redux', 'Tachyons'],
@@ -60,6 +69,15 @@ const arrayOfProjects = [
       'This is a todo-list application built with a mobile-first approach. This project proves my ability to write clean Javascript code using employing best practices and making the UI interactive and fun to use. This application gives users the functionality to create, read, update and delete todo tasks. Tasks can also be marked as completed, and completed tasks can be cleared at a go from the list.',
     live: 'https://codepantha.github.io/to-do-list/dist/',
     github: 'https://github.com/codepantha/to-do-list',
+  },
+  {
+    image: 'https://user-images.githubusercontent.com/46839548/164227601-d914b478-a358-4211-b08e-674d63642b0e.png',
+    title: 'Math Magic',
+    tech: ['html', 'css', 'Javascript', 'React'],
+    description:
+      '"Math magicians" is a website for all fans of mathematics. It is a Single Page App (SPA) that allows users to: Make simple calculations. Read a random math-related quote.',
+    live: 'https://mathmagic.netlify.app/',
+    github: 'https://github.com/codepantha/mathMagicians',
   },
 ];
 
